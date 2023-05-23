@@ -15,26 +15,10 @@
     margin-top: 0px;
     /* text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 8px darkblue; */
 }
-.box{
-    display: flex ;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
-    background: url("https://img.freepik.com/fotos-gratis/fundo-abstrato-com-textura-de-vidro-estampado_53876-125882.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
 
-.glass{
-    width: 300px;
-    height: 300px;
-    backdrop-filter: blur(10px);
-    border-radius: 30px;
-    background: linear-gradient(100deg, rgba(0,0,0,.2), rgba(0,0,0,.50));
-    box-shadow: 0 10px 26px 0 rgba(0,0,0,.60);
 
-}
+
+
 .search-container {
     display:flex;
     justify-content: center;
@@ -86,14 +70,14 @@
 }
 #grad {
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(39, 30, 30), #f5793b);
-    height: 35%;
+    height: 100%;
     z-index: -1;
   }
 #brilho:hover{
 opacity: 0;
 }
 .footer{
-    margin-bottom: 10px;
+    margin-bottom: 0px;
     padding-top: 35%;
 }
 .tabela{
@@ -114,3 +98,7 @@ opacity: 0;
     
 
 }
+
+    
+
+

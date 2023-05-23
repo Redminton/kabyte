@@ -85,13 +85,32 @@
     cursor: pointer;
 }
 #grad {
-    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(59, 59, 58));
-    height: 608px;
+    background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(39, 30, 30), #f5793b);
+    height: 35%;
+    z-index: -1;
   }
 #brilho:hover{
 opacity: 0;
 }
 .footer{
     margin-bottom: 10px;
-    padding-top: 500px;
+    padding-top: 35%;
+}
+.tabela{
+    border-color: #ffffff;
+    color: #ffffff;
+    border: 1px solid;
+    border-collapse: collapse;
+    
+    
+}
+#coluna{
+    color: #ffffff;
+}
+.foot{
+    tab-size: 100%;
+    width: 100%;
+    background-image: linear-gradient(to bottom right, #f1580c, #ffffff );
+    
+
 }

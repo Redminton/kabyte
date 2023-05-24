@@ -77,14 +77,18 @@
 opacity: 0;
 }
 .footer{
-    margin-bottom: 0px;
-    padding-top: 35%;
+    margin-bottom: -8px;
+   
+    padding: 0% 0% 0% 0%;
+    margin-left: -8px;
+    margin-right: -8px;
 }
 .tabela{
     border-color: #ffffff;
     color: #ffffff;
     border: 1px solid;
     border-collapse: collapse;
+    border-spacing: 0;  
     
     
 }
@@ -95,6 +99,10 @@ opacity: 0;
     tab-size: 100%;
     width: 100%;
     background-image: linear-gradient(to bottom right, #f1580c, #ffffff );
+    font-size: 15px;
+    max-width: 100%;
+    
+     
     
 
 }

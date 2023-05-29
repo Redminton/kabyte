@@ -98,13 +98,17 @@ opacity: 0;
 .foot{
     tab-size: 100%;
     width: 100%;
-    background-image: linear-gradient(to bottom right, #f1580c, #ffffff );
+  
+   /* style="  background-image: linear-gradient(to bottom right, #e76626, #000000, ); " */
+   background-color: rgba(0, 0, 0, 0.5); 
     font-size: 15px;
     max-width: 100%;
+    color: #ffffff;
     
-     
-    
-
+}
+.produtos{
+    text-align: center;
+    padding-left: 10%;
 }
 
     

@@ -1,10 +1,15 @@
 .logo {
     text-align: left;
-    padding: -50px;
-  /*  height: auto;
-    max-width: 200px;
-*/
+    align-items: left;
+    margin-left: 10px;
+    opacity: 0.5;
 }
+#brilho2{
+    transition-duration: 1.0s;
+}
+#brilho2:hover{
+    opacity: 1;
+    }
 #f5{
     border-radius: 6px;
     background-color: transparent;
@@ -16,12 +21,14 @@
 
 .titulo{
     text-align: center;
-    font-size: 30px;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    /* font-size: 30px;
     letter-spacing: 15px;
     word-spacing: -30px;
     text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px rgb(255, 255, 255), 0 0 8px rgb(244, 244, 247);
-    margin-top: 0px;
-    /* text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 8px darkblue; */
+    text-shadow: 1px 1px 2px rgb(255, 255, 255), 0 0 25px blue, 0 0 8px darkblue; */
 }
 
 
@@ -29,8 +36,9 @@
 
 .search-container {
     display:flex;
-    justify-content: center;
-    align-items: center;
+    margin-right: 10px;
+    justify-content: right;
+    align-items: right;
     margin-top: 0px;
     opacity: 0;
     animation: fade-in 3s ease forwards ;
@@ -46,19 +54,13 @@
     100% {
         opacity: 1;
     }
-   
-  /* 0%   {background-color:red; left:0px; top:0px;}
-   25%  {background-color:yellow; left:200px; top:0px;}
-   50%  {background-color:blue; left:200px; top:200px;}
-   75%  {background-color:green; left:0px; top:200px;}
-   100% {background-color:red; left:0px; top:0px;} */
 }
 .search-input {
     padding: 4px 12px;
     border: 1px solid #f1580c;
     border-radius: 4px;
     font-size: 14px;
-    width: 120px;  
+    width: 90px;  
     opacity: 1;
    
     background-color: transparent;
@@ -82,8 +84,9 @@
     z-index: -1;
   }
 #brilho:hover{
-opacity: 0;
+opacity: 0.6;
 }
+
 .footer{
     margin-bottom: -8px;
    
@@ -126,6 +129,8 @@ opacity: 0;
     background-image: linear-gradient(to bottom right, #f1580c, #f5793b );
     cursor: pointer;
     border: none;
+    height: 150px;
+    color: #ffffff;
 }
 .botao2
 {
@@ -141,6 +146,20 @@ opacity: 0;
     background-image: linear-gradient(to bottom right, #f1580c, #f5793b      );
     cursor: pointer;
     border: none;
+}
+#anima:hover
+{
+    height: 150px;
+    width: 180px;
+    background-image: linear-gradient(to bottom right, #f1580c00, #f5793b00      );
+    
+}
+.footer2{
+    margin-top: 15%;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+    
 }
 
 

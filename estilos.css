@@ -197,4 +197,16 @@ h3{
  width: 150px;
  cursor: zoom-in;
 }
+#anima2{
+    transition-duration: 0.5s;
+}
+#anima2:hover{
+ background-image: none;
+
+}
+#centro{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
 

@@ -1,5 +1,6 @@
 * {
     box-sizing: border-box;
+    font-family: Arial, sans-serif;
   }
 .logo {
     text-align: left;
@@ -75,7 +76,8 @@
   }
   @media (max-width: 700px) {
     #grad{
-           opacity: 0;
+        background-image: none;
+        z-index: -1;
     }
   }
 #brilho:hover{
@@ -117,6 +119,7 @@ opacity: 0.6;
     border: none;
     height: 150px;
     color: #ffffff;
+   
 }
 .botao2
 {
@@ -125,6 +128,7 @@ opacity: 0.6;
     color: floralwhite;
     cursor: pointer;
     border: none;
+   
 }
 .botao1
 {
@@ -132,6 +136,7 @@ opacity: 0.6;
     background-image: linear-gradient(to bottom right, #f1580c, #f5793b      );
     cursor: pointer;
     border: none;
+    
 }
 #anima:hover
 {

@@ -214,6 +214,8 @@ select
     padding: 8px 4px;
     border: none;
     border-radius: 8px;
-    background-color: #e6802d63;
+    background-color: #f88a2fa4;
     color: #ffffff;
+    cursor: pointer;
+    
 }

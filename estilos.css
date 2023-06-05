@@ -53,10 +53,9 @@
     border: 1px solid #f1580c;
     border-radius: 4px;
     font-size: 14px;
-    width: 100px;  
+    width: 130px;  
     opacity: 1;
-   
-    background-color: transparent;
+    background-color: #f1580c;
     color: #ffffff;  
 
 }
@@ -250,4 +249,12 @@ select
       margin-left: 1%;
       margin-right: 1%; 
     }
+  }
+  #cep{
+    background-color:  #f88a2fa4 ;
+    border: 1px;
+    color: white;
+  }
+  ::placeholder{
+    color: black;
   }

@@ -240,3 +240,8 @@ select
       margin-right: 1%; 
     }
   }
+  @media screen (max-width: 700px) {
+    #grad{
+           background-color: #ffff;
+    }
+  }

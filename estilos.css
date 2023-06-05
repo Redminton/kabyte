@@ -73,6 +73,11 @@
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(39, 30, 30), #f5793b);
     z-index: -1;
   }
+  @media (max-width: 700px) {
+    #grad{
+           background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(39, 30, 30, 0), #f5793b00);
+    }
+  }
 #brilho:hover{
 opacity: 0.6;
 }
@@ -240,8 +245,4 @@ select
       margin-right: 1%; 
     }
   }
-  @media (max-width: 700px) {
-    #grad{
-           background-color: #ffff;
-    }
-  }
+

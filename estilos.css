@@ -75,7 +75,7 @@
   }
   @media (max-width: 700px) {
     #grad{
-           background-image: linear-gradient(to bottom right, rgba(0, 0, 0, 0), rgba(39, 30, 30, 0), #f5793b00);
+           opacity: 0;
     }
   }
 #brilho:hover{
@@ -226,7 +226,6 @@ select
     background-color: #f88a2fa4;
     color: #ffffff;
     cursor: pointer;
-    
 }
 .caixinha{
     display: flex;
@@ -245,4 +244,3 @@ select
       margin-right: 1%; 
     }
   }
-

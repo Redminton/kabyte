@@ -195,6 +195,19 @@ opacity: 0.3;
         font-family: Arial, sans-serif;
 
 }
+.frete{
+    text-align: center;
+    justify-content: space-between;
+    background-color: #c4612867;
+    margin: auto;
+    font-size: large;
+    border-radius: 8px;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    margin-left: 15%;
+    margin-right: 15%; 
+}
 h1{
     margin: 0%;
 }
@@ -254,6 +267,7 @@ select
     background-color:  #f88a2fa4 ;
     border: 1px;
     color: white;
+    margin-right: 5px;
   }
   ::placeholder{
     color: black;

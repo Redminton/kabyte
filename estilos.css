@@ -50,13 +50,13 @@
 }
 .search-input {
     padding: 4px 12px;
-    border: 1px solid #f1580c;
+    border: 1px solid #000000;
     border-radius: 4px;
     font-size: 14px;
     width: 130px;  
     opacity: 1;
     background-color: #f1580c;
-    color: #ffffff;  
+    color: #000000;  
 
 }
 .search-button {

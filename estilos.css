@@ -268,7 +268,15 @@ select
     border: 1px;
     color: white;
     margin-right: 5px;
+    width: 55%;
   }
   ::placeholder{
     color: black;
+  }
+  br{
+    user-select: none;
+  }
+  #paga{
+   text-align: left;
+   margin-left: 8%;
   }

@@ -70,7 +70,7 @@
     </table>
 <br>
 <div class="frete">
-    <div>
+    <div style="width: 33%;">
         <br>
     <form >
      <span style="margin-left: 5px;">Frete</span>   <input id="cep" type="text" name="cep" placeholder="Digite seu CEP"></input>
@@ -78,18 +78,25 @@
 
    <br>
     </div>
-    <div>
+    <div style="width: 33%;">
         <br>
         <form>
-           Cupom   <input id="cep" type="text" name="cep" placeholder="Digite seu CEP"></input>
+           Cupom   <input id="cep" type="text" name="cep" placeholder="Código de desconto"></input>
            </form>
            <br>
     </div>
-    <div>
+    <div style="width: 33%;">
         <br>
         <form>
-           Total   <input id="cep" type="text" name="cep" placeholder="Digite seu CEP"></input>
-           </form>
+           Subtotal: R$ 3.339,98<br>
+           <br>
+           <div id="paga">
+           <input type="radio" id="cartao" name="cartao" value="Cartão de Crédito">Cartão (Em até em 12x)
+              <br>
+           <input type="radio" id="pix" name="cartao" value="À vista: pix ou boleto">À Vista (Boleto ou Pix)
+           </div>
+        </form>
+
            <br>
     </div>
 </div>

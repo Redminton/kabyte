@@ -57,7 +57,8 @@
     opacity: 1;
    
     background-color: transparent;
-    color: #ffffff;     
+    color: #ffffff;  
+
 }
 .search-button {
     padding: 4px 11px;
@@ -208,6 +209,7 @@ h3{
 .animacao_placa3:hover{
  opacity: 1;
  width: 150px;
+ font-size: larger;
  cursor: zoom-in;
 }
 #anima2{

@@ -209,4 +209,11 @@ h3{
     justify-content: center;
     align-items: center;
 }
-
+select
+{
+    padding: 8px 4px;
+    border: none;
+    border-radius: 8px;
+    background-color: #e6802d63;
+    color: #ffffff;
+}

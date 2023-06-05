@@ -233,7 +233,10 @@ select
 }
 @media (max-width: 800px) {
     .caixinha {
-      flex-direction: column;
+      display: flex;
+        flex-direction: column;
       flex: auto;
+      margin-left: 1%;
+      margin-right: 1%; 
     }
   }

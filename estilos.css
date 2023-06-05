@@ -234,5 +234,6 @@ select
 @media (max-width: 800px) {
     .caixinha {
       flex-direction: column;
+      flex: auto;
     }
   }

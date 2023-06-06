@@ -288,11 +288,26 @@ select
     font-size: large;
     border-radius: 8px;
     color: #ffffff;
-    margin-left: 40%;
-    margin-right: 40%;
-    border: none;
+    border-color: transparent;
+    border: 5px;
     cursor: pointer;
   }
   #po{
     color: transparent;
+  }
+  .caixa{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex: auto;
+    margin-left: 25%;
+    margin-right: 25%;
+    justify-content: space-between; 
+  }
+  #anima4{
+    opacity: 1;
+    transition-duration: 1,0s;
+  }
+  #anima4:hover{
+   background-image: none;
   }

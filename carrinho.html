@@ -47,10 +47,10 @@
             <img class="animacao_placa3" src="imagens/hm1.png" width="100px"> 
             </td>
             <td>
-            Placa de Vídeo RTX 3060 Asus
+            <span class="animacao_placa3">Placa de Vídeo RTX 3060 Asus</span>
             </td>
             <td style="text-align: right;">
-             R$ 2,299,99
+             <span class="animacao_placa3"> R$ 2,299,99</span>
             </td>
             <td><form>
                 <select id="quant" name="quant">
@@ -71,10 +71,10 @@
         <img class="animacao_placa3" src="imagens/pro5.png" width="100px"> 
         </td>
         <td>
-            Processador Intel Core i5-12400F
+            <span class="animacao_placa3"> Processador Intel Core i5-12400F</span>
         </td>
         <td style="text-align: right;">
-            R$ 1.039,99
+           <span class="animacao_placa3"> R$ 1.039,99</span>
         </td>
         <td><form>
             <select id="quant" name="quant">
@@ -92,7 +92,7 @@
 <div class="frete">
     <div style="width: 33%; text-align: left;">
         <table> 
-            <br><br>
+            <br>
             <tr>
         <td>
         <form >
@@ -114,41 +114,38 @@
             </tr>
     </table>
     </div>
-    <div style="width: 33%; vertical-align: middle;"><br><br>
+    <div style="width: 33%; vertical-align: middle;"><br>
        Em até <strong>10x</strong> de <strong>R$ 389,90</strong> sem juros no cartão <br>
-       Ou <strong>R$ 3.339,98</strong> À vista
+       Ou <strong>R$ 3.339,98</strong> À vista <br><br>
     </div>
     <div style="width: 33%;">
-        <br>   
-        <form>
-           <strong>Subtotal: R$ 3.339,98</strong><br>
-           <br>
-           <div id="paga">
-           <input type="radio" id="cartao" name="cartao" value="Cartão de Crédito">Cartão (Em até em 10x)
-              <br>
-           <input type="radio" id="pix" name="cartao" value="À vista: pix ou boleto">À Vista (Boleto ou Pix)
-           </div>
-        </form>
-
+        <br> <br>  
+          <span class="animacao_placa3"> <strong>Subtotal: R$ 3.339,98</strong></span><br>
            <br>
     </div>
 </div>
 <br>
-<div style="text-align: center;">
-<button class="finalizar" onclick="document.location='sumario.html'">
-    <span style="color: rgb(255, 255, 255);"><h2><strong>Finalizar a Compra!</strong></h2></span>
+<div class="caixa">
+    <div style="text-align: center; width: 49%;">
+<button id="anima4" class="finalizar" onclick="document.location='sumario.html'">
+    <img src="imagens/cred.png" width="20%">
 </button>
 
 </div>
+<div style="text-align: center; width: 50%;">
+    <button id="anima4" class="finalizar" onclick="document.location='sumario.html'">
+    <img src="imagens/pix.png" width="15%"><img src="imagens/barra.png" width="15%"><img src="imagens/boleto.png " width="20%" >
+    </button>
+    
+    </div>
+</div>
 
+<!--<span style="color: rgb(255, 255, 255);"><h2><strong>Finalizar à Vista</strong></h2></span>
 
-
-
-
+<span style="color: rgb(255, 255, 255);"><h2><strong>Finalizar no Cartão</strong></h2></span>-->
 <br>
 <br>
-<br>
-<br>
+
         <div class="footer">
             <table class="foot" style="padding: 0% 5% 0% 10%; text-align: left; ">
                             <tr style="font-size: larger;   ">

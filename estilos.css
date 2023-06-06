@@ -74,7 +74,7 @@
     background-image: linear-gradient(to bottom right, rgb(0, 0, 0), rgb(39, 30, 30), #f5793b);
     z-index: -1;
   }
-  @media (max-width: 700px) {
+  @media (max-width: 500px) {
     #grad{
         background-image: none;
         z-index: -5;
@@ -268,7 +268,7 @@ select
     border: 1px;
     color: white;
     margin-right: 5px;
-    width: 55%;
+    width: 80%;
   }
   ::placeholder{
     color: black;
@@ -279,4 +279,6 @@ select
   #paga{
    text-align: left;
    margin-left: 8%;
+
   }
+  

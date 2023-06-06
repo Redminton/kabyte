@@ -281,4 +281,15 @@ select
    margin-left: 12%;
     
   }
-  
+  .finalizar{
+    text-align: center;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right, #f1580c, #f5793b );
+    font-size: large;
+    border-radius: 8px;
+    color: #ffffff;
+    margin-left: 40%;
+    margin-right: 40%;
+    border: none;
+    cursor: pointer;
+  }

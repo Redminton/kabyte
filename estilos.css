@@ -261,7 +261,8 @@ select
     margin-left: 10%; 
     margin-right: 10%; 
     justify-content: space-between;
-    align-items: center
+    vertical-align: top;
+   
 }
 @media (max-width: 700px) {
     .caixinha {

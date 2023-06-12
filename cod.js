@@ -4,5 +4,5 @@ function myfuncao() {
   function enter(event){
     let key = event.key;
    if (key=="enter" || key == "Enter"){
-    document.location='descricaogenerica.html' }
+    document.location='descricao_produto_1.html' }
   }

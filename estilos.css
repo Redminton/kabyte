@@ -301,6 +301,16 @@ select
     border: 5px;
     cursor: pointer;
   }
+  .finalizar2{
+    text-align: center;
+    justify-content: center;
+    font-size: large;
+    border-radius: 40px;
+    color: #ffffff;
+    border-color: transparent;
+    border: 5px;
+    cursor: pointer;
+  }
   #po{
     color: transparent;
   }
